@@ -83,7 +83,7 @@ ptr=(SinglyLinkedListNode*)malloc(sizeof(SinglyLinkedListNode));
 ptr->data=data;
     if(position==0)
     {
-        ptr->next=head;
+        ptr->next=NULL;
         return ptr;
     }
     if(head==NULL)
